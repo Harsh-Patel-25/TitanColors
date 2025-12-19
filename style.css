@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(236, 234, 234);
+  margin: 0;
+  padding: 0;
+}
+
+.topdiv {
+  width: 100%;
+  background-color: white;
+  position: static;
+}
+
+h1 {
+  margin-top: 0px;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 30px;
+  color: rgb(9, 9, 235);
+  margin-bottom: 2px;
+}
+
+.txt {
+  background-color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.genbtn {
+  border-radius: 5px;
+  background-color: rgb(9, 9, 235);
+  padding: 5px 10px;
+  color: white;
+  border: none;
+}
+
+.txt p {
+  margin: 0px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(96, 95, 95);
+}
+
+.palette {
+  display: flex;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  height: 590px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p,
+.box5 p {
+  padding-bottom: 50px;
+  color: white;
+  font-size: 28px;
+}
